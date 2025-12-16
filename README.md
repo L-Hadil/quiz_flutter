@@ -1,17 +1,85 @@
-# quiz
+Flutter Quiz Advanced est une application mobile de quiz complète qui démontre l'utilisation de multiples patterns de gestion d'état. L'application permet aux utilisateurs de répondre à des questions, suivre leurs scores et améliorer leurs connaissances de manière interactive. 
 
-A new Flutter project.
+## Fonctionnalités
 
-## Getting Started
+- Quiz interactif avec questions à choix multiples
+- Suivi des scores et statistiques
+- Sauvegarde locale des progrès avec SharedPreferences
+- Interface utilisateur moderne et intuitive
+- Gestion d'état avec Provider et BLoC
+- Support multi-plateforme (Android, iOS, Web, Linux)
 
-This project is a starting point for a Flutter application.
+## Architecture
 
-A few resources to get you started if this is your first Flutter project:
+Le projet suit une architecture Clean Architecture avec séparation des responsabilités : 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+lib/
+├── business_logic/    # Logique métier (BLoC, Providers)
+├── core/             # Utilitaires et constantes
+├── data/             # Modèles et sources de données
+├── presentation/     # Interfaces utilisateur (Screens, Widgets)
+└── main.dart         # Point d'entrée de l'application
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# quiz_flutter
+### Firebase (To Be Continued)
+
+**Status :** En développement
+
+## Installation
+
+### Prérequis
+- Flutter SDK 3.0.0 ou supérieur
+- Dart SDK 3.0.0 ou supérieur
+
+### Étapes d'installation
+
+1. **Cloner le repository**
+```bash
+git clone https://github.com/L-Hadil/quiz_flutter.git
+cd quiz_flutter
+```
+
+2. **Installer les dépendances**
+```bash
+flutter pub get
+```
+
+3. **Lancer l'application**
+```bash
+flutter run
+```
+
+## Utilisation
+
+### Lancer sur différentes plateformes
+
+**Android/iOS :**
+```bash
+flutter run
+```
+
+**Web :**
+```bash
+flutter run -d chrome
+```
+
+**Linux :**
+```bash
+flutter run -d linux
+```
+
+## Tests
+
+Pour exécuter les tests unitaires :
+```bash
+flutter test
+```
+
+## Plateformes Supportées
+
+- Android
+- iOS
+- Web
+- Linux
+
