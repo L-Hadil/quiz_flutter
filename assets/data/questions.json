@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "text": "Quel est le langage de programmation utilisé par Flutter ?",
+    "image": "flutter_dart.png",
+    "answers": ["Java", "Dart", "Kotlin", "Swift"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": "2",
+    "text": "Quel widget utilise-t-on pour créer une liste déroulante ?",
+    "image": "listview.png",
+    "answers": ["ListView", "Column", "Row", "Stack"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": "3",
+    "text": "Quelle méthode utilise-t-on pour naviguer vers une nouvelle page ?",
+    "image": "navigator.png",
+    "answers": ["Navigator.push()", "Navigator.pop()", "Navigator.replace()", "Navigator.jump()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": "4",
+    "text": "Quel est le widget racine d'une application Flutter ?",
+    "image": "materialapp.png",
+    "answers": ["MaterialApp", "Scaffold", "Container", "WidgetsApp"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": "5",
+    "text": "Quelle commande utilise-t-on pour créer un nouveau projet Flutter ?",
+    "image": "flutter_create.png",
+    "answers": ["flutter create", "flutter new", "flutter init", "flutter start"],
+    "correctAnswerIndex": 0
+  }
+]
