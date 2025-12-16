@@ -69,13 +69,6 @@ flutter run -d chrome
 flutter run -d linux
 ```
 
-## Tests
-
-Pour exécuter les tests unitaires :
-```bash
-flutter test
-```
-
 ## Plateformes Supportées
 
 - Android
